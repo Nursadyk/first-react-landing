@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Georgia;
+  src: url(/src/fonts/georgia.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+}
+.container-little {
+  max-width: 1026px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background: url(../src/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Georgia", serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  h3,
+  h4 {
+    font-size: 2px;
+  }
+}

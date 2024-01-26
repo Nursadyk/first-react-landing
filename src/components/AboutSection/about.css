@@ -1,0 +1,27 @@
+.about {
+  background: #fff;
+  padding: 80px 0 100px 0;
+}
+.about__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.about__right {
+  max-width: 430px;
+}
+.about__title {
+  max-width: 370px;
+  color: #545454;
+  font-family: Georgia;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 2.1px;
+}
+.about__text {
+  margin-top: 25px;
+  color: #4c4c4c;
+  font-family: Arial;
+  line-height: 160%;
+}
